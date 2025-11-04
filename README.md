@@ -1,16 +1,36 @@
 # penaltee
+Name: Shelia Vellicita
 
-A new Flutter project.
+NPM: 2406453606
 
-## Getting Started
+Class: KKI
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+ASSIGNMENT 1 
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. Explain what a widget tree is in Flutter and how parent-child relationships work between widgets.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
+
+2. List all the widgets you used in this project and explain their functions.
+
+
+
+
+3. What is the function of the MaterialApp widget? Explain why this widget is often used as the root widget.
+
+
+
+
+4. Explain the difference between StatelessWidget and StatefulWidget. When would you choose one over the other?
+
+
+
+
+5. What is BuildContext and why is it important in Flutter? How is it used in the build method?
+
+
+
+
+6. Explain the concept of a “hot reload” in Flutter and how it differs from a “hot restart”.
