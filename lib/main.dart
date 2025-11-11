@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:penaltee/menu.dart';
+import 'package:penaltee/screens/menu.dart';
 
 void main() {
   runApp(const MyApp());

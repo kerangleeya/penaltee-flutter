@@ -5,7 +5,7 @@ Class: KKI
 
 ---
 
-ASSIGNMENT 1 
+## ASSIGNMENT 7 
 
 1. Explain what a widget tree is in Flutter and how parent-child relationships work between widgets.
 
@@ -43,3 +43,24 @@ When using hot reload, Flutter pushes the code changes into the Dart Virtual Mac
 Hot restart is a feature that reloads the app from scratch. It’s similar to completely restarting the app, but it does so much faster than a full rebuild. Unlike hot reload, hot restart clears the app’s state and starts it from the initial state.<br>
 When using Hot Restart, Flutter reinitializes the app. All static variables and current states are reset, and the app loads from the main() function. This is useful when you need to apply changes that require the app to start fresh, such as modifications to state management or global variables.<br>
 In conclusion, hot reload keeps the app’s state intact while reflecting UI and logic changes instantly, while hot restart refreshes the entire app environment, applying startup and global updates.
+
+
+---
+
+## ASSIGNMENT 8
+
+1. Explain the difference between Navigator.push() and Navigator.pushReplacement() in Flutter. In what context of your application is each best used?
+
+Navigator.push() is used to move to a new page while still keeping the previous page in the navigation stack, which means the user can press the back button to return to the earlier screen. Meanwhile, Navigator.pushReplacement() replaces the current page entirely, removing it from the stack so that the user cannot go back.
+
+2. How do you use hierarchy widget like Scaffold, AppBar, dan Drawer to build a consistent page structure in the your application?
+
+Widgets like Scaffold, Appbar, and Drawer help create a consistent structure across all screens of the application. The Scaffold provides a basic layout framework that includes areas for the navigation drawer, top bar, and main content. The Appbar gives each page a clear and familiar title area that strengthens page identity, while the Drawer makes navigation between pages consistent and easily accessible. By using this same arrangement across multiple screens, the application feels unified and predictable to the user. Hence, it will enhance the usability and improve the overall visual coherence.
+
+3. In the context of user interface design, what do you think is the advantages of using layout widget like Padding, SingleChildScrollView, and ListView when displaying form elements? Provide usage examples from your application.
+
+Layout widgets like Padding, SingleChildScrollView, and ListView are essential in making forms readable, comfortable to interact with, and responsive to screen size. Padding ensures that input fields and text are not cramped, improving both visual clarity and touch accuracy. SingleChildScrollView allows the entire form to scroll when the screen is small or when the keyboard is open, preventing overflow errors. On the other hand, ListView is efficient for displaying longer or dynamic forms because it renders only the visible fields at a time. In the application, these widgets ensure that forms such as the product creation form remain clean and easy to fill in regardless of screen size.
+
+4. How do you set the color theme so that your Football Shop have a visual identity that is consistent with the shop brand.
+
+In the main.dart, we can set the theme using ColorScheme or ThemeDara in the MaterialApp widget, For this application, I used ColorScheme.fromSeed(seedColor: Colors.red.shade700). This establishes red as the brand color for Penaltee. By consistently using Theme.of(context).colorScheme.primary and secondary across buttons, AppBars, and highlights, the app develops a unified visual identity. This avoids random colors in different screens and ensures the interface feels professional and aligned with the brand.
