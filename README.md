@@ -47,6 +47,7 @@ In conclusion, hot reload keeps the app’s state intact while reflecting UI and
 
 ---
 
+
 ## ASSIGNMENT 8
 
 1. Explain the difference between Navigator.push() and Navigator.pushReplacement() in Flutter. In what context of your application is each best used?
