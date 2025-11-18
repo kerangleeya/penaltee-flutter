@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:penaltee/screens/menu.dart';
 import 'package:penaltee/screens/productlist_form.dart';
+import 'package:penaltee/screens/product_entry_list.dart';
 
 class LeftDrawer extends StatelessWidget {
   const LeftDrawer({super.key});
@@ -63,10 +64,17 @@ class LeftDrawer extends StatelessWidget {
                   ));
             },
           ),
-          // TODO: Create another ListTile for the product list page
+          // Redirect to the Product list page
           ListTile(
-            leading: const Icon(Icons.list),
+            leading: const Icon(Icons.add_reaction_rounded),
             title: const Text('Product List'),
+            onTap: () {
+                // Route to product list page
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => const ProductEntryListPage()),
+                );
+            },
           ),
         ],
       ),
